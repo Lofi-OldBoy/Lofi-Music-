@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,9 +34,11 @@
         .links {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 20px;
         }
         .link {
+            display: flex;
+            align-items: center;
             background-color: white;
             padding: 15px;
             border-radius: 10px;
@@ -46,9 +49,15 @@
         .link:hover {
             background-color: #e0e0e0;
         }
-        a {
+        .link img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+        .link a {
             text-decoration: none;
             color: #4caf50;
+            font-size: 1.2em;
         }
     </style>
 </head>
@@ -64,21 +73,10 @@
         </div>
         <div class="links">
             <div class="link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube Logo">
                 <a href="https://youtube.com/@nights-into-dreams?si=zDTxlscD6sxVEN6T" target="_blank">YouTube</a>
             </div>
             <div class="link">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/SoundCloud_logo.svg/1280px-SoundCloud_logo.svg.png" alt="SoundCloud Logo">
                 <a href="https://soundcloud.com/lofi-oldboy" target="_blank">SoundCloud</a>
-            </div>
-            <div class="link">
-                <a href="https://open.spotify.com/artist/6JCH5IoUycVz3RVpmiMegS?si=J5lwR4G5QgawWJdZNTNrWg" target="_blank">Spotify</a>
-            </div>
-            <div class="link">
-                <a href="https://music.amazon.co.uk/artists/B0CVJRRBFP/lofi-oldboy?marketplaceId=A1F83G8C2ARO7P&musicTerritory=GB&ref=dm_sh_cUsCkuRIvPIIfsoELuUwYNv9B" target="_blank">Amazon Music</a>
-            </div>
-            <div class="link">
-                <a href="https://music.apple.com/us/artist/lofi-oldboy/1730551376" target="_blank">Apple Music</a>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+     
